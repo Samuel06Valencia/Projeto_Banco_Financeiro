@@ -83,6 +83,8 @@ public class Main {
                     count2.adicionaSaque(saque);
                     System.out.println(count2.totalSaque());
                     break;
+                default:
+                    System.out.println("Opção Inválida!!");
             }
 
             System.out.println("Programa Encerrado!!");
