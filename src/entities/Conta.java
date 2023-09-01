@@ -4,21 +4,21 @@ public class Conta {
     private String name;
     private int numConta;
     private int numAgencia;
-    private long cpf;
+    private String cpf;
     private double saldo;
     private double saque;
 
     public Conta() {
     }
 
-    public Conta(String name, int numConta, int numAgencia, long cpf) {
+    public Conta(String name, int numConta, int numAgencia, String cpf) {
         this.name = name;
         this.numConta = numConta;
         this.numAgencia = numAgencia;
         this.cpf = cpf;
     }
 
-    public Conta(String name, int numConta, int numAgencia, long cpf, double saldo) {
+    public Conta(String name, int numConta, int numAgencia, String cpf, double saldo) {
         this.name = name;
         this.numConta = numConta;
         this.numAgencia = numAgencia;
@@ -26,7 +26,7 @@ public class Conta {
         this.saldo = saldo;
     }
 
-    public Conta(String name, int numConta, int numAgencia, long cpf, double saldo, double saque) {
+    public Conta(String name, int numConta, int numAgencia, String cpf, double saldo, double saque) {
         this.name = name;
         this.numConta = numConta;
         this.numAgencia = numAgencia;
@@ -59,11 +59,11 @@ public class Conta {
         this.numAgencia = numAgencia;
     }
 
-    public long getCpf() {
+    public String getCpf() {
         return cpf;
     }
 
-    public void setCpf(long cpf) {
+    public void setCpf(String cpf) {
         this.cpf = cpf;
     }
 

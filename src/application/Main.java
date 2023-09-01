@@ -27,7 +27,7 @@ public class Main {
             sc.next();
             String name = sc.nextLine();
             System.out.println("Digite seu CPF: ");
-            long cpf = sc.nextLong();
+            String cpf = sc.next();
             System.out.println("Digite sua numeração escolhida para 'número de conta': ");
             int numConta = sc.nextInt();
             System.out.println("Digite sua numeração de 'número de agência': ");
